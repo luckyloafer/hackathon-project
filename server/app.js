@@ -14,7 +14,7 @@ const io = new Server(server, {
         methods: ['GET', 'POST']
     }
 });
-
+//sample
 io.on("connection", (socket) => {
     console.log(socket.id);
 
